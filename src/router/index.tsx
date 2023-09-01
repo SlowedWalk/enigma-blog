@@ -10,6 +10,7 @@ import FileManager from "../pages/FileManager";
 import Profile from "../pages/Profile";
 import ChangePassword from "../pages/ChangePassword";
 import Blog from "../pages/Blog";
+import Post from "../pages/Post";
 
 function Router() {
   const routes = [
@@ -38,8 +39,18 @@ function Router() {
           element: <FileManager />,
         },
         {
-          path: "blog",
+          path: "blog/",
           element: <Blog />,
+          // children: [
+          //   {
+          //     path: "create",
+          //     element: <Post />,
+          //   },
+          // ]
+        },
+        {
+          path: "blog/create",
+          element: <Post />,
         },
       ]
     },

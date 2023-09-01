@@ -18,14 +18,14 @@ function Main() {
     error
   } = useGetUsersQuery('getUsers');
 
-  let content;
+  let content: string | JSX.Element = '';
 
   if (isLoading) {
     content =
-      <div className="flex flex-col items-center justify-end col-span-6 sm:col-span-3 xl:col-span-2">
+      <div className="flex flex-col mt-10 items-center justify-end col-span-6 sm:col-span-3 xl:col-span-2">
         <LoadingIcon icon="oval" className="w-8 h-8" />
         <div className="mt-2 text-xs text-center">
-         <h3 className="text-sm">Loading ..., Please wait</h3>
+         <h3 className="text-lg"> Loading ...</h3>
         </div>
       </div>;
   } else if (isSuccess) {

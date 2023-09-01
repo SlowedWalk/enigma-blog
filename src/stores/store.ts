@@ -5,6 +5,7 @@ import sideMenuReducer from "./sideMenuSlice";
 import simpleMenuReducer from "./simpleMenuSlice";
 import topMenuReducer from "./topMenuSlice";
 import { apiSlice } from "../api/apiSlice";
+import authReducer from "../api/auth/authSlice";
 
 export const store = configureStore({
   reducer: {
@@ -13,7 +14,8 @@ export const store = configureStore({
     sideMenu: sideMenuReducer,
     simpleMenu: simpleMenuReducer,
     topMenu: topMenuReducer,
-    [apiSlice.reducerPath]: apiSlice.reducer
+    [apiSlice.reducerPath]: apiSlice.reducer,
+    auth: authReducer,
   },
   middleware: getDefaultMiddleware =>
     getDefaultMiddleware().concat(apiSlice.middleware),

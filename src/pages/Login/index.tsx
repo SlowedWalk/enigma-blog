@@ -7,7 +7,12 @@ import { FormInput, FormCheck } from "../../base-components/Form";
 import Button from "../../base-components/Button";
 import clsx from "clsx";
 import { useNavigate } from "react-router-dom";
+import { setCredentials } from "../../api/auth/authSlice";
+import { useLoginMutation } from "../../api/auth/authApiSlice";
+import { useEffect, useRef, useState } from "react";
+import { useDispatch } from "react-redux";
 
+// this is similat to a login dto
 type Inputs = {
   email: string,
   password: string,
@@ -15,16 +20,35 @@ type Inputs = {
 
 function Main() {
   const navigate = useNavigate();
+  const errRef = useRef();
+  const [errMsg, setErrMsg] = useState('');
+
+  const [login, { isLoading, isError, error, data, status } ] = useLoginMutation();
+  const dispatch = useDispatch();
 
   const { register, handleSubmit, watch, formState: { errors } } = useForm<Inputs>();
 
-  const onSubmit: SubmitHandler<Inputs> = (data) => {
+  const onSubmit: SubmitHandler<Inputs> = async (data) => {
     console.log(data);
-    if (data.email === "admin@admin.com" && data.password === "admin") {
-      navigate("/");
-    } else {
-      alert("Wrong email or password");
+    try {
+      const userData = await login(data).unwrap();
+      const userEmail = data.email;
+      dispatch(setCredentials({...userData, userEmail}));
+      navigate('/');
+    } catch (err) {
+      if(!err?.response) {
+        console.log('no response');
+      } else if (err?.response?.status === 401) {
+        console.log('401 Unauthorized');
+      } else if (err?.response?.status === 400) {
+        console.log('400 Bad Request');
+      }
     }
+    // if (data.email === "admin@admin.com" && data.password === "admin") {
+    //   navigate("/");
+    // } else {
+    //   alert("Wrong email or password");
+    // }
   };
 
   return (
@@ -79,24 +103,39 @@ function Main() {
                 <div className="mt-8 intro-x">
                   <FormInput
                     type="text"
-                    className="block px-4 py-3 intro-x min-w-full xl:min-w-[350px]"
+                    className={`block px-4 py-3 intro-x min-w-full xl:min-w-[350px]
+                      ${errors["email"] ? 'ring-4 ring-rose-600 ring-opacity-20 dark:focus:ring-rose-600 dark:focus:ring-opacity-50' : 'border-neutral-300'}
+                      ${errors["email"] ? 'focus:ring-4 focus:ring-rose-600 focus:ring-opacity-20 focus:border-rose-600 focus:border-opacity-40 dark:border-transparent dark:focus:ring-rose-700 dark:focus:ring-opacity-50' : 'focus:border-neutral-300'}
+                    `}
                     placeholder="Email"
-                    {...register("email", { required: true })}
+                    {...register("email", { required: true, pattern: /^\S+@\S+$/i })}
                   />
+                  <h4 className="text-rose-500">
+                    {errors["email"] && (
+                      <h1>
+                        {errors["email"].type === "required" && ("Email is required")}
+                        {errors["email"].type === "pattern" && ("Email is invalid")}
+                      </h1>
+                    )}
+                  </h4>
                   <FormInput
                     type="password"
                     className={`block px-4 py-3 mt-4 intro-x min-w-full xl:min-w-[350px]
-                      ${errors["email"] ? 'border-rose-500' : 'border-neutral-300'}
-                      ${errors["email"] ? 'focus:border-rose-500' : 'focus:border-black'}
-                    `}
+                    ${errors["password"] ? 'ring-4 ring-rose-600 ring-opacity-20 dark:focus:ring-rose-800 dark:focus:ring-opacity-50' : 'border-neutral-300'}
+                    ${errors["password"] ? 'focus:ring-4 focus:ring-rose-600 focus:ring-opacity-20 dark:focus:ring-rose-800 dark:focus:ring-opacity-50' : 'focus:border-neutral-300'}
+                  `}
                     placeholder="Password"
                     {...register("password", { required: true })}
-
                   />
+                  <h4 className="text-rose-500">
+                    {errors["password"] && (
+                      <h1>
+                        {errors["password"].type === "required" && ("Password is required")}
+                      </h1>
+                    )}
+                  </h4>
                 </div>
                 <div className={`flex mt-4 text-xs intro-x text-slate-600 dark:text-slate-500 sm:text-sm
-                    ${errors["password"] ? 'border-rose-500' : 'border-neutral-300'}
-                    ${errors["password"] ? 'focus:border-rose-500' : 'focus:border-black'}
                   `}>
                   <div className="flex items-center mr-auto">
                     <FormCheck.Input

@@ -1,7 +1,7 @@
 import { createEntityAdapter } from "@reduxjs/toolkit";
 import { apiSlice } from "./apiSlice";
 
-/* interface User {
+interface User {
     id: number;
     name: string;
     gender: string;
@@ -19,23 +19,25 @@ import { apiSlice } from "./apiSlice";
             url: string
         }
     ]
-} */
+}
 
-const usersAdapter = createEntityAdapter();
+const usersAdapter = createEntityAdapter<User>();
 
 const initialState = usersAdapter.getInitialState()
+
 
 export const usersApiSlice = apiSlice.injectEndpoints({
     endpoints: builder => ({
         getUsers: builder.query({
             query: () => '/users',
-            transformResponse: (data) => {
+            keepUnusedDataFor: 60,
+            transformResponse: (data: User[]) => {
                 console.log("data", data);
                 return usersAdapter.setAll(initialState, data)
             },
-            providesTags: (result, error, arg) => [
-                { type: 'User', id: "LIST" },
-                ...result.ids.map(id => ({ type: 'User', id }))
+            providesTags: (result: any, error: any, arg: any) => [
+                { type: 'User', id: "USER-LIST" },
+                ...result!.ids.map((id: number) => ({ type: 'User', id }))
             ]
         })
     })

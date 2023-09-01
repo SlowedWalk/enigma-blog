@@ -1,6 +1,7 @@
 import dayjs from "dayjs";
 import duration from "dayjs/plugin/duration";
 import { parseColor } from "tailwindcss/lib/util/color";
+import { parseISO, formatDistanceToNow } from 'date-fns';
 
 dayjs.extend(duration);
 
@@ -18,6 +19,17 @@ const cutText = (text: string, length: number) => {
 const formatDate = (date: string, format: string) => {
   return dayjs(date).format(format);
 };
+
+const TimeAgo = (timestamp: string) => {
+  let timeAgo = ''
+  if (timestamp) {
+      const date = parseISO(timestamp)
+      const timePeriod = formatDistanceToNow(date)
+      timeAgo = `${timePeriod}`
+  }
+
+  return timeAgo;
+}
 
 const capitalizeFirstLetter = (string: string) => {
   if (string) {

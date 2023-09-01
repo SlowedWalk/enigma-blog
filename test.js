@@ -41,5 +41,11 @@ data = {
   ],
 };
 
-console.log(data.users[0].socials[0].url);
+const date = new Date(1589892480000);
+
+console.log(date.toISOString());
+console.log(date.toUTCString());
+console.log(date.toLocaleDateString());
+console.log(date.toLocaleTimeString());
+console.log(date.toLocaleString());
 
