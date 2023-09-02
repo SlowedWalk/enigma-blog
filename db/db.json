@@ -84,48 +84,80 @@
     "DevOps Engineer"
   ],
   "files": [
-    { "fileName": "Celine Dion - Ashes.mp4", "type": "MP4", "size": "20 MB" },
-    { "fileName": "Laravel 7", "type": "Empty Folder", "size": "120 MB" },
-    { "fileName": "Routes.php", "type": "Image", "size": "1.2 MB" },
-    { "fileName": "Repository", "type": "Folder", "size": "20 KB" },
-    { "fileName": "Resources.txt", "type": "TXT", "size": "2.2 MB" },
-    { "fileName": "Angular 15", "type": "Typescript", "size": "1 KB" },
-    { "fileName": "Dota 2", "type": "Folder", "size": "112 GB" },
-    { "fileName": "Documentation", "type": "Empty Folder", "size": "4 MB" },
-    { "fileName": "Dota 2", "type": "Image", "size": "1.4 MB" },
-    { "fileName": "Spring Boot 3", "type": "Image", "size": "1 MB" }
+    {
+      "fileName": "Celine Dion - Ashes.mp4",
+      "type": "MP4",
+      "size": "20 MB"
+    },
+    {
+      "fileName": "Laravel 7",
+      "type": "Empty Folder",
+      "size": "120 MB"
+    },
+    {
+      "fileName": "Routes.php",
+      "type": "Image",
+      "size": "1.2 MB"
+    },
+    {
+      "fileName": "Repository",
+      "type": "Folder",
+      "size": "20 KB"
+    },
+    {
+      "fileName": "Resources.txt",
+      "type": "TXT",
+      "size": "2.2 MB"
+    },
+    {
+      "fileName": "Angular 15",
+      "type": "Typescript",
+      "size": "1 KB"
+    },
+    {
+      "fileName": "Dota 2",
+      "type": "Folder",
+      "size": "112 GB"
+    },
+    {
+      "fileName": "Documentation",
+      "type": "Empty Folder",
+      "size": "4 MB"
+    },
+    {
+      "fileName": "Dota 2",
+      "type": "Image",
+      "size": "1.4 MB"
+    },
+    {
+      "fileName": "Spring Boot 3",
+      "type": "Image",
+      "size": "1 MB"
+    }
   ],
   "news": [
     {
       "title": "Desktop publishing software like Aldus PageMaker",
       "superShortContent": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-
       "shortContent": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-
       "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     },
     {
       "title": "Dummy text of the printing and typesetting industry",
       "superShortContent": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-
       "shortContent": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-
       "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
     },
     {
       "title": "Popularised in the 1960s with the release of Letraset",
       "superShortContent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 'Lorem ipsum dolor sit amet..', comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from 'de Finibus Bonorum et Malorum' by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
-
       "shortContent": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 'Lorem ipsum dolor sit amet..', comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from 'de Finibus Bonorum et Malorum' by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
-
       "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 'de Finibus Bonorum et Malorum' (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, 'Lorem ipsum dolor sit amet..', comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from 'de Finibus Bonorum et Malorum' by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."
     },
     {
       "title": "200 Latin words, combined with a handful of model sentences",
       "superShortContent": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
-
       "shortContent": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
-
       "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."
     }
   ],
@@ -182,20 +214,56 @@
     }
   ],
   "products": [
-    { "id": 1, "name": "Dell XPS 13", "category": "PC & Laptop" },
-    { "id": 2, "name": "Apple MacBook Pro 13", "category": "PC & Laptop" },
-    { "id": 3, "name": "Oppo Find X2 Pro", "category": "Smartphone & Tablet" },
+    {
+      "id": 1,
+      "name": "Dell XPS 13",
+      "category": "PC & Laptop"
+    },
+    {
+      "id": 2,
+      "name": "Apple MacBook Pro 13",
+      "category": "PC & Laptop"
+    },
+    {
+      "id": 3,
+      "name": "Oppo Find X2 Pro",
+      "category": "Smartphone & Tablet"
+    },
     {
       "id": 4,
       "name": "Samsung Galaxy S20 Ultra",
       "category": "Smartphone & Tablet"
     },
-    { "id": 5, "name": "Sony Master Series A9G", "category": "Electronic" },
-    { "id": 6, "name": "Samsung Q90 QLED TV", "category": "Electronic" },
-    { "id": 7, "name": "Nike Air Max 270", "category": "Sport & Outdoor" },
-    { "id": 8, "name": "Nike Tanjun", "category": "Sport & Outdoor" },
-    { "id": 9, "name": "Nikon Z6", "category": "Photography" },
-    { "id": 10, "name": "Sony A7 III", "category": "Photography" }
+    {
+      "id": 5,
+      "name": "Sony Master Series A9G",
+      "category": "Electronic"
+    },
+    {
+      "id": 6,
+      "name": "Samsung Q90 QLED TV",
+      "category": "Electronic"
+    },
+    {
+      "id": 7,
+      "name": "Nike Air Max 270",
+      "category": "Sport & Outdoor"
+    },
+    {
+      "id": 8,
+      "name": "Nike Tanjun",
+      "category": "Sport & Outdoor"
+    },
+    {
+      "id": 9,
+      "name": "Nikon Z6",
+      "category": "Photography"
+    },
+    {
+      "id": 10,
+      "name": "Sony A7 III",
+      "category": "Photography"
+    }
   ],
   "images": [
     "https://placehold.co/500x100.jpg",
@@ -228,9 +296,18 @@
       "website": "https://www.johnnydepp.com",
       "about": "John Christopher Depp II (born June 9, 1963) is an American actor, producer, and musician. He has been nominated for ten Golden Globe Awards, winning one for Best Actor for his performance of the title role in Sweeney Todd: The Demon Barber of Fleet Street (2007), and has been nominated for three Academy Awards for Best Actor, among other accolades. He is regarded as one of the world's biggest film stars.",
       "socials": [
-        { "name": "facebook", "url": "https://www.facebook.com/johnnydepp" },
-        { "name": "twitter", "url": "https://twitter.com/johnnydepp" },
-        { "name": "instagram", "url": "https://www.instagram.com/johnnydepp/" }
+        {
+          "name": "facebook",
+          "url": "https://www.facebook.com/johnnydepp"
+        },
+        {
+          "name": "twitter",
+          "url": "https://twitter.com/johnnydepp"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/johnnydepp/"
+        }
       ]
     },
     {
@@ -246,9 +323,18 @@
       "website": "https://www.alpacino.com",
       "about": "Alfredo James Pacino (born April 25, 1940) is an American actor and filmmaker. In a career spanning over five decades, he has received many awards and nominations, including an Academy Award, two Tony Awards, and two Primetime Emmy Awards. He is one of the few performers to have received the Triple Crown of Acting. He has also been honored with the AFI Life Achievement Award, the Cecil B. DeMille Award, and the National Medal of Arts.",
       "socials": [
-        { "name": "facebook", "url": "https://www.facebook.com/alpacino" },
-        { "name": "twitter", "url": "https://twitter.com/alpacino" },
-        { "name": "instagram", "url": "https://www.instagram.com/alpacino/" }
+        {
+          "name": "facebook",
+          "url": "https://www.facebook.com/alpacino"
+        },
+        {
+          "name": "twitter",
+          "url": "https://twitter.com/alpacino"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/alpacino/"
+        }
       ]
     },
     {
@@ -264,9 +350,18 @@
       "website": "https://www.deniro.com",
       "about": "Robert Anthony De Niro Jr. (born August 17, 1943) is an American actor, producer, and director. He is a recipient of numerous accolades, including two Academy Awards, a Golden Globe Award, the Cecil B. DeMille Award, the Golden Lion, the AFI Life Achievement Award, Presidential Medal of Freedom, and has been nominated for six BAFTA Awards, four Primetime Emmy Awards and four Screen Actors Guild Awards.",
       "socials": [
-        { "name": "facebook", "url": "https://www.facebook.com/alpacino" },
-        { "name": "twitter", "url": "https://twitter.com/alpacino" },
-        { "name": "instagram", "url": "https://www.instagram.com/alpacino/" }
+        {
+          "name": "facebook",
+          "url": "https://www.facebook.com/alpacino"
+        },
+        {
+          "name": "twitter",
+          "url": "https://twitter.com/alpacino"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/alpacino/"
+        }
       ]
     },
     {
@@ -282,9 +377,18 @@
       "website": "",
       "about": "",
       "socials": [
-        { "name": "facebook", "url": "" },
-        { "name": "twitter", "url": "" },
-        { "name": "instagram", "url": "" }
+        {
+          "name": "facebook",
+          "url": ""
+        },
+        {
+          "name": "twitter",
+          "url": ""
+        },
+        {
+          "name": "instagram",
+          "url": ""
+        }
       ]
     },
     {
@@ -300,9 +404,18 @@
       "website": "",
       "about": "",
       "socials": [
-        { "name": "facebook", "url": "" },
-        { "name": "twitter", "url": "" },
-        { "name": "instagram", "url": "" }
+        {
+          "name": "facebook",
+          "url": ""
+        },
+        {
+          "name": "twitter",
+          "url": ""
+        },
+        {
+          "name": "instagram",
+          "url": ""
+        }
       ]
     },
     {
@@ -318,9 +431,18 @@
       "website": "",
       "about": "",
       "socials": [
-        { "name": "facebook", "url": "" },
-        { "name": "twitter", "url": "" },
-        { "name": "instagram", "url": "" }
+        {
+          "name": "facebook",
+          "url": ""
+        },
+        {
+          "name": "twitter",
+          "url": ""
+        },
+        {
+          "name": "instagram",
+          "url": ""
+        }
       ]
     },
     {
@@ -336,9 +458,18 @@
       "website": "",
       "about": "",
       "socials": [
-        { "name": "facebook", "url": "" },
-        { "name": "twitter", "url": "" },
-        { "name": "instagram", "url": "" }
+        {
+          "name": "facebook",
+          "url": ""
+        },
+        {
+          "name": "twitter",
+          "url": ""
+        },
+        {
+          "name": "instagram",
+          "url": ""
+        }
       ]
     },
     {
@@ -354,9 +485,18 @@
       "website": "",
       "about": "",
       "socials": [
-        { "name": "facebook", "url": "" },
-        { "name": "twitter", "url": "" },
-        { "name": "instagram", "url": "" }
+        {
+          "name": "facebook",
+          "url": ""
+        },
+        {
+          "name": "twitter",
+          "url": ""
+        },
+        {
+          "name": "instagram",
+          "url": ""
+        }
       ]
     },
     {
@@ -372,9 +512,18 @@
       "website": "",
       "about": "",
       "socials": [
-        { "name": "facebook", "url": "" },
-        { "name": "twitter", "url": "" },
-        { "name": "instagram", "url": "" }
+        {
+          "name": "facebook",
+          "url": ""
+        },
+        {
+          "name": "twitter",
+          "url": ""
+        },
+        {
+          "name": "instagram",
+          "url": ""
+        }
       ]
     },
     {
@@ -390,9 +539,18 @@
       "website": "",
       "about": "",
       "socials": [
-        { "name": "facebook", "url": "" },
-        { "name": "twitter", "url": "" },
-        { "name": "instagram", "url": "" }
+        {
+          "name": "facebook",
+          "url": ""
+        },
+        {
+          "name": "twitter",
+          "url": ""
+        },
+        {
+          "name": "instagram",
+          "url": ""
+        }
       ]
     },
     {
@@ -408,9 +566,18 @@
       "website": "",
       "about": "",
       "socials": [
-        { "name": "facebook", "url": "" },
-        { "name": "twitter", "url": "" },
-        { "name": "instagram", "url": "" }
+        {
+          "name": "facebook",
+          "url": ""
+        },
+        {
+          "name": "twitter",
+          "url": ""
+        },
+        {
+          "name": "instagram",
+          "url": ""
+        }
       ]
     },
     {
@@ -426,9 +593,18 @@
       "website": "",
       "about": "",
       "socials": [
-        { "name": "facebook", "url": "" },
-        { "name": "twitter", "url": "" },
-        { "name": "instagram", "url": "" }
+        {
+          "name": "facebook",
+          "url": ""
+        },
+        {
+          "name": "twitter",
+          "url": ""
+        },
+        {
+          "name": "instagram",
+          "url": ""
+        }
       ]
     },
     {
@@ -444,9 +620,18 @@
       "website": "",
       "about": "",
       "socials": [
-        { "name": "facebook", "url": "" },
-        { "name": "twitter", "url": "" },
-        { "name": "instagram", "url": "" }
+        {
+          "name": "facebook",
+          "url": ""
+        },
+        {
+          "name": "twitter",
+          "url": ""
+        },
+        {
+          "name": "instagram",
+          "url": ""
+        }
       ]
     },
     {
@@ -462,9 +647,18 @@
       "website": "",
       "about": "",
       "socials": [
-        { "name": "facebook", "url": "" },
-        { "name": "twitter", "url": "" },
-        { "name": "instagram", "url": "" }
+        {
+          "name": "facebook",
+          "url": ""
+        },
+        {
+          "name": "twitter",
+          "url": ""
+        },
+        {
+          "name": "instagram",
+          "url": ""
+        }
       ]
     },
     {
@@ -480,9 +674,18 @@
       "website": "",
       "about": "",
       "socials": [
-        { "name": "facebook", "url": "" },
-        { "name": "twitter", "url": "" },
-        { "name": "instagram", "url": "" }
+        {
+          "name": "facebook",
+          "url": ""
+        },
+        {
+          "name": "twitter",
+          "url": ""
+        },
+        {
+          "name": "instagram",
+          "url": ""
+        }
       ]
     },
     {
@@ -498,9 +701,18 @@
       "website": "",
       "about": "",
       "socials": [
-        { "name": "facebook", "url": "" },
-        { "name": "twitter", "url": "" },
-        { "name": "instagram", "url": "" }
+        {
+          "name": "facebook",
+          "url": ""
+        },
+        {
+          "name": "twitter",
+          "url": ""
+        },
+        {
+          "name": "instagram",
+          "url": ""
+        }
       ]
     },
     {
@@ -516,9 +728,18 @@
       "website": "",
       "about": "",
       "socials": [
-        { "name": "facebook", "url": "" },
-        { "name": "twitter", "url": "" },
-        { "name": "instagram", "url": "" }
+        {
+          "name": "facebook",
+          "url": ""
+        },
+        {
+          "name": "twitter",
+          "url": ""
+        },
+        {
+          "name": "instagram",
+          "url": ""
+        }
       ]
     },
     {
@@ -534,9 +755,18 @@
       "website": "",
       "about": "",
       "socials": [
-        { "name": "facebook", "url": "" },
-        { "name": "twitter", "url": "" },
-        { "name": "instagram", "url": "" }
+        {
+          "name": "facebook",
+          "url": ""
+        },
+        {
+          "name": "twitter",
+          "url": ""
+        },
+        {
+          "name": "instagram",
+          "url": ""
+        }
       ]
     },
     {
@@ -552,9 +782,18 @@
       "website": "",
       "about": "",
       "socials": [
-        { "name": "facebook", "url": "" },
-        { "name": "twitter", "url": "" },
-        { "name": "instagram", "url": "" }
+        {
+          "name": "facebook",
+          "url": ""
+        },
+        {
+          "name": "twitter",
+          "url": ""
+        },
+        {
+          "name": "instagram",
+          "url": ""
+        }
       ]
     },
     {
@@ -570,9 +809,18 @@
       "website": "",
       "about": "",
       "socials": [
-        { "name": "facebook", "url": "" },
-        { "name": "twitter", "url": "" },
-        { "name": "instagram", "url": "" }
+        {
+          "name": "facebook",
+          "url": ""
+        },
+        {
+          "name": "twitter",
+          "url": ""
+        },
+        {
+          "name": "instagram",
+          "url": ""
+        }
       ]
     },
     {
@@ -588,9 +836,18 @@
       "website": "",
       "about": "",
       "socials": [
-        { "name": "facebook", "url": "" },
-        { "name": "twitter", "url": "" },
-        { "name": "instagram", "url": "" }
+        {
+          "name": "facebook",
+          "url": ""
+        },
+        {
+          "name": "twitter",
+          "url": ""
+        },
+        {
+          "name": "instagram",
+          "url": ""
+        }
       ]
     },
     {
@@ -606,9 +863,18 @@
       "website": "",
       "about": "",
       "socials": [
-        { "name": "facebook", "url": "" },
-        { "name": "twitter", "url": "" },
-        { "name": "instagram", "url": "" }
+        {
+          "name": "facebook",
+          "url": ""
+        },
+        {
+          "name": "twitter",
+          "url": ""
+        },
+        {
+          "name": "instagram",
+          "url": ""
+        }
       ]
     },
     {
@@ -624,9 +890,18 @@
       "website": "",
       "about": "",
       "socials": [
-        { "name": "facebook", "url": "" },
-        { "name": "twitter", "url": "" },
-        { "name": "instagram", "url": "" }
+        {
+          "name": "facebook",
+          "url": ""
+        },
+        {
+          "name": "twitter",
+          "url": ""
+        },
+        {
+          "name": "instagram",
+          "url": ""
+        }
       ]
     },
     {
@@ -642,9 +917,18 @@
       "website": "",
       "about": "",
       "socials": [
-        { "name": "facebook", "url": "" },
-        { "name": "twitter", "url": "" },
-        { "name": "instagram", "url": "" }
+        {
+          "name": "facebook",
+          "url": ""
+        },
+        {
+          "name": "twitter",
+          "url": ""
+        },
+        {
+          "name": "instagram",
+          "url": ""
+        }
       ]
     },
     {
@@ -660,9 +944,18 @@
       "website": "connerySean.com",
       "about": "",
       "socials": [
-        { "name": "facebook", "url": "" },
-        { "name": "twitter", "url": "" },
-        { "name": "instagram", "url": "" }
+        {
+          "name": "facebook",
+          "url": ""
+        },
+        {
+          "name": "twitter",
+          "url": ""
+        },
+        {
+          "name": "instagram",
+          "url": ""
+        }
       ]
     },
     {
@@ -678,9 +971,46 @@
       "website": "https://www.keiraknightley.com",
       "about": "",
       "socials": [
-        { "name": "facebook", "url": "" },
-        { "name": "twitter", "url": "" },
-        { "name": "instagram", "url": "" }
+        {
+          "name": "facebook",
+          "url": ""
+        },
+        {
+          "name": "twitter",
+          "url": ""
+        },
+        {
+          "name": "instagram",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Keira Knightley",
+      "email": "admin@admin.com",
+      "password": "$2a$10$UXrhBsjdG8IPHVa47gC2d.0ui8C.Mpz0G.J/BBawYS/LTBMTkS3K6",
+      "gender": "female",
+      "avatar": "https://robohash.org/iureautet.png?size=50x50&set=set1",
+      "job": "DevOps Engineer",
+      "phone": "+62 812 3456 7890",
+      "address": "Pondok Indah Street No. 12, Jakarta Selatan",
+      "birthday": "June 9, 1963",
+      "website": "https://www.keiraknightley.com",
+      "about": "",
+      "socials": [
+        {
+          "name": "facebook",
+          "url": ""
+        },
+        {
+          "name": "twitter",
+          "url": ""
+        },
+        {
+          "name": "instagram",
+          "url": ""
+        }
       ]
     }
   ],
@@ -688,7 +1018,9 @@
     {
       "id": 1,
       "author": "Joshia",
-      "category": ["Construction Clean and Final Clean"],
+      "category": [
+        "Construction Clean and Final Clean"
+      ],
       "date": "2023-03-29T04:20:18Z",
       "imageUrl": "http://dummyimage.com/167x100.png/cc0000/ffffff",
       "excerpt": "id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum",
@@ -702,7 +1034,9 @@
     {
       "id": 2,
       "author": "Farrah",
-      "category": ["Soft Flooring and Base"],
+      "category": [
+        "Soft Flooring and Base"
+      ],
       "date": "2023-04-18T21:07:49Z",
       "imageUrl": "http://dummyimage.com/245x100.png/cc0000/ffffff",
       "excerpt": "dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem",
@@ -716,7 +1050,9 @@
     {
       "id": 3,
       "author": "Renaldo",
-      "category": ["Structural & Misc Steel Erection"],
+      "category": [
+        "Structural & Misc Steel Erection"
+      ],
       "date": "2023-06-05T03:15:31Z",
       "imageUrl": "http://dummyimage.com/145x100.png/dddddd/000000",
       "excerpt": "erat eros viverra eget congue eget semper rutrum nulla nunc",
@@ -730,7 +1066,9 @@
     {
       "id": 4,
       "author": "Alford",
-      "category": ["Painting & Vinyl Wall Covering"],
+      "category": [
+        "Painting & Vinyl Wall Covering"
+      ],
       "date": "2023-06-27T16:01:42Z",
       "imageUrl": "http://dummyimage.com/141x100.png/dddddd/000000",
       "excerpt": "tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis",
@@ -744,7 +1082,9 @@
     {
       "id": 5,
       "author": "Reid",
-      "category": ["Sitework & Site Utilities"],
+      "category": [
+        "Sitework & Site Utilities"
+      ],
       "date": "2022-09-20T14:32:49Z",
       "imageUrl": "http://dummyimage.com/132x100.png/cc0000/ffffff",
       "excerpt": "blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor",
@@ -758,7 +1098,9 @@
     {
       "id": 6,
       "author": "Ario",
-      "category": ["Framing (Wood)"],
+      "category": [
+        "Framing (Wood)"
+      ],
       "date": "2023-01-19T07:55:39Z",
       "imageUrl": "http://dummyimage.com/197x100.png/dddddd/000000",
       "excerpt": "vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus",
@@ -772,7 +1114,9 @@
     {
       "id": 7,
       "author": "Tedie",
-      "category": ["Retaining Wall and Brick Pavers"],
+      "category": [
+        "Retaining Wall and Brick Pavers"
+      ],
       "date": "2023-01-02T08:16:19Z",
       "imageUrl": "http://dummyimage.com/102x100.png/cc0000/ffffff",
       "excerpt": "lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed",
@@ -786,7 +1130,9 @@
     {
       "id": 8,
       "author": "Pepe",
-      "category": ["Site Furnishings"],
+      "category": [
+        "Site Furnishings"
+      ],
       "date": "2022-09-27T03:36:41Z",
       "imageUrl": "http://dummyimage.com/140x100.png/5fa2dd/ffffff",
       "excerpt": "ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt",
@@ -800,7 +1146,9 @@
     {
       "id": 9,
       "author": "Oberon",
-      "category": ["Soft Flooring and Base"],
+      "category": [
+        "Soft Flooring and Base"
+      ],
       "date": "2022-08-14T23:09:36Z",
       "imageUrl": "http://dummyimage.com/112x100.png/5fa2dd/ffffff",
       "excerpt": "tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula",
@@ -814,7 +1162,9 @@
     {
       "id": 10,
       "author": "Roda",
-      "category": ["Structural and Misc Steel (Fabrication)"],
+      "category": [
+        "Structural and Misc Steel (Fabrication)"
+      ],
       "date": "2022-11-01T08:55:20Z",
       "imageUrl": "http://dummyimage.com/221x100.png/cc0000/ffffff",
       "excerpt": "in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque",
@@ -828,7 +1178,9 @@
     {
       "id": 11,
       "author": "Laurena",
-      "category": ["Sitework & Site Utilities"],
+      "category": [
+        "Sitework & Site Utilities"
+      ],
       "date": "2023-02-28T12:35:12Z",
       "imageUrl": "http://dummyimage.com/201x100.png/cc0000/ffffff",
       "excerpt": "hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem",
@@ -842,7 +1194,9 @@
     {
       "id": 12,
       "author": "Prent",
-      "category": ["Retaining Wall and Brick Pavers"],
+      "category": [
+        "Retaining Wall and Brick Pavers"
+      ],
       "date": "2022-09-15T04:30:18Z",
       "imageUrl": "http://dummyimage.com/113x100.png/ff4444/ffffff",
       "excerpt": "aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi",
@@ -856,7 +1210,9 @@
     {
       "id": 13,
       "author": "Brittan",
-      "category": ["Fire Protection"],
+      "category": [
+        "Fire Protection"
+      ],
       "date": "2022-07-28T20:39:35Z",
       "imageUrl": "http://dummyimage.com/174x100.png/5fa2dd/ffffff",
       "excerpt": "pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing",
@@ -870,7 +1226,9 @@
     {
       "id": 14,
       "author": "Crystie",
-      "category": ["Electrical"],
+      "category": [
+        "Electrical"
+      ],
       "date": "2022-11-30T11:32:43Z",
       "imageUrl": "http://dummyimage.com/240x100.png/cc0000/ffffff",
       "excerpt": "semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus",
@@ -884,7 +1242,9 @@
     {
       "id": 15,
       "author": "Franzen",
-      "category": ["Marlite Panels (FED)"],
+      "category": [
+        "Marlite Panels (FED)"
+      ],
       "date": "2023-02-18T16:20:37Z",
       "imageUrl": "http://dummyimage.com/234x100.png/ff4444/ffffff",
       "excerpt": "rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis",

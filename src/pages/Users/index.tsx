@@ -79,21 +79,21 @@ function Main() {
                     <img
                       alt="Midone Tailwind HTML Admin Template"
                       className="rounded-full"
-                      src={users.entities[id].avatar}
+                      src={users.entities[id]?.avatar}
                     />
                   </div>
                   <div className="mt-3 text-center lg:ml-2 lg:mr-auto lg:text-left lg:mt-0">
                     <a href={`/profile/${users.entities[id].id}`} className="font-medium">
-                      {users.entities[id].name}
+                      {users.entities[id]?.name}
                     </a>
                     <div className="text-slate-500 text-xs mt-0.5">
-                      {users.entities[id].job}
+                      {users.entities[id]?.job}
                     </div>
                   </div>
                   <div className="flex mt-3 -ml-2 lg:ml-0 lg:justify-end lg:mt-0">
                     <Tippy
                       as="a"
-                      href={users.entities[id].socials[0].url}
+                      href={users.entities[id]?.socials[0]?.url}
                       className="flex items-center justify-center w-8 h-8 ml-2 border rounded-full dark:border-darkmode-400 text-slate-400 zoom-in"
                       content="Facebook"
                     >
@@ -101,7 +101,7 @@ function Main() {
                     </Tippy>
                     <Tippy
                       as="a"
-                      href={users.entities[id].socials[1].url}
+                      href={users.entities[id]?.socials[1]?.url}
                       className="flex items-center justify-center w-8 h-8 ml-2 border rounded-full dark:border-darkmode-400 text-slate-400 zoom-in"
                       content="Twitter"
                     >
@@ -109,7 +109,7 @@ function Main() {
                     </Tippy>
                     <Tippy
                       as="a"
-                      href={users.entities[id].socials[2].url}
+                      href={users.entities[id]?.socials[2]?.url}
                       className="flex items-center justify-center w-8 h-8 ml-2 border rounded-full dark:border-darkmode-400 text-slate-400 zoom-in"
                       content="Linked In"
                     >
